@@ -21,7 +21,6 @@ double z = minion + bob;
 System.out.println(z);
    
 
-
 /*  
     Challenge 2:
     Create three variables to assign three grades and Assign values to each grade. 
@@ -56,24 +55,25 @@ System.out.println(x);
     Declare and assign values to any new variables
 
 */
-  int A = 30;
-  int x = 5;
+double A = 10.0;
+double xx = 4.0;
 
-int eq1 = A / (x + 1);
+double y = A / (xx+1);
 
 System.out.println(y);
 /*  
     Challenge 5:
-    Using the variables same variables from challenge4 above, write the following equation in EQ2.PNG file in Java, store the result and the display it:
+    Using the variables same variables from challenge 4 above, write the following equation in EQ2.PNG file in Java, store the result and the display it:
 
     Declare and assign values to any new variables
 
 */
- 
+double a = 10.0;
+double xxx = 4.0;
 
+double result = (2 * xxx * (xxx + 1) * (-xxx / 2)) / a;
 
-
-
+ System.out.println(result);
 
 /*  
     Challenge 6:
@@ -83,7 +83,12 @@ System.out.println(y);
     Declare and assign values to any new variables
 */
  
+double base = 25.0;
+double height = 9.0;
 
+double area = 1/2. * base * height;
+
+System.out.println(area);
 
 
 
