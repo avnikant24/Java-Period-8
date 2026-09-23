@@ -69,9 +69,9 @@ System.out.println(y);
 
 */
 double a = 10.0;
-double xxx = 4.0;
+double x3 = 4.0;
 
-double result = (2 * xxx * (xxx + 1) * (-xxx / 2)) / a;
+double result = (2 * x3 * (x3 + 1) * (-x3 / 2)) / a;
 
  System.out.println(result);
 
