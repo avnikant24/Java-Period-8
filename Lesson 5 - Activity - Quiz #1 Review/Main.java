@@ -45,7 +45,7 @@ System.out.println(sum);
     NOTE: Does it look correct, check with a calculator?
 */
 
-double x = (grade1 + grade2 + grade3)/3.0;
+double x = sum/3.0;
 
 System.out.println(x);
 
@@ -82,7 +82,7 @@ double result = (2 * x3 * (x3 + 1) * (-x3 / 2)) / a;
 
     Declare and assign values to any new variables
 */
- 
+
 double base = 25.0;
 double height = 9.0;
 
