@@ -30,8 +30,6 @@ double groupSavings(int tickets){
   }
 }
 
-
-
   /*
       Write a function groceryDiscount that takes the total amount spent at 
       a grocery store and the number of cans of beans purchased.
