@@ -28,15 +28,7 @@ String encode(String txt){
     for(int x=0; x<=txt.length()-1;x++){
       ch=txt.charAt(x);
       ascii=(int)ch;
-      
-      if(ascii == 90){
-        ascii = 65;
-      }
-      else if( ascii == 122){
-        ascii = 97;
-      }
-      else{
-        ascii+=1;
+        ascii+=3;
       }
       bld+= (char)ascii;
     }
@@ -57,23 +49,15 @@ String encode(String txt){
       ch=txt.charAt(x);
       ascii=(int)ch;
       
-      if(ascii == 65){
-        ascii = 90;
-      }
-      else if( ascii == 97){
-        ascii = 122;
-      }
-      else{
-        ascii-=1;
+        ascii-=3;
       }
       bld+= (char)ascii;
     }
     return bld;
-  }
+
 
   int randInt(int lower, int upper){
     int range = upper - lower;
     return (int)(Math.random()*range+lower);
   }
 
-}
